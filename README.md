@@ -33,3 +33,6 @@ When you are ready to put your project on the Internet, you need to build it. Fo
 This commend will create a dist folder. This is the folder containing your whole application and that's the only folder that you need to deploy to the server in order to make your app publically available.
 
 ## For more information, see the study plan on the project page
+
+Deployed project domain:```https://spotify-song-preview-card-seven.vercel.app```
+Deployed project inspect: ```https://vercel.com/q-mante/spotify-song-preview-card/6fKv453xkaSkCA7cxQ5im7m8hEoz```
