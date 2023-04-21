@@ -8,3 +8,116 @@
   flex-wrap: wrap;
   justify-content: center;
 }
+
+.song-preview-card__artist-and-time,
+.song-preview-card__time,
+.song-preview-card__album-cover-and-info,
+.song-preview-card__album-info-container {
+    display: flex;
+}
+
+.song-preview-card {
+    margin-top: 101px;
+    max-width: 413px;
+    max-height: 607px;
+    background: #9296C4;
+    border-radius: 24px;
+    color: white;
+    padding: 16px;
+
+    .song-preview-card__song-image {
+        width: 381px;
+        height: 381px;
+        border-radius: 18px;
+        filter: drop-shadow(0px 0px 12px rgba(0, 0, 0, 0.1));
+        margin-bottom: 8px;
+    }
+
+    .song-preview-card__content {
+        padding: 16px;
+    }
+
+    .song-preview-card__title {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        margin-bottom: 12px;
+    }
+
+    .song-preview-card__artist-and-time {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 140%;
+        justify-content: space-between;
+    }
+
+    .song-preview-card__time {
+        gap: 8px;
+    }
+
+    hr {
+        margin-top: 24px;
+        margin-bottom: 24px;
+        width: 349px;
+        opacity: 0.2;
+        border: 1.5px solid #FFFFFF;
+    }
+
+    .song-preview-card__album-cover-and-info {
+        height: 40px;
+    }
+
+    .song-preview-card__album-image {
+        height: 40px;
+        width: 40px;
+        border-radius: 20px;
+    }
+
+    .song-preview-card__album-info-container {
+        position: relative;
+        align-items: center;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 140%;
+        gap: 8px;
+        left: 16px;
+    }
+}
+
+@media (max-width: 834px) {
+
+    .song-preview-card {
+        margin-top: 293px;
+    }
+}
+
+@media (max-width: 375px) {
+
+    .song-preview-card {
+        margin-top: 137px;
+        max-width: 343px;
+        max-height: 537px;
+
+        .song-preview-card__song-image {
+            width: 311px;
+            height: 311px;
+        }
+
+        .song-preview-card__title {
+            font-weight: 600;
+        }
+
+        .song-preview-card__artist-and-time {
+            font-weight: 500;
+        }
+
+        hr {
+            width: 279px;
+        }
+
+        .song-preview-card__album-info-container {
+            font-size: 14px;
+            font-weight: 600;
+        }
+    }
+}

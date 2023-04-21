@@ -11,12 +11,41 @@
 <!-- In order to start your challenge, remove all the content inside <div id="home-page"></div> and start coding :) -->
 
 <body>
-  <div id="home-page">
-    Hello
-  </div>
+    <div id="home-page">
+        <div class="song-preview-card">
+            <div class="song-preview-__song-container">
+                <img src="/assets/images/song-cover.jpg" class="song-preview-card__song-image" alt="song cover" />
+            </div>
+            <div class="song-preview-card__content">
+                <div class="song-preview-card__title">RiRi</div>
+                <div class="song-preview-card__artist-and-time">
+                    <div class="song-preview-card__artist">Young Thug</div>
+                    <div class="song-preview-card__time">
+                        <div class="song-preview-card__time-icon-container">
+                            <img src="/assets/icons/clock.svg" alt="clock" />
+                        </div>
+                        <div class="song-preview-card__time-text">4:04</div>
+                    </div>
+                </div>
+                <hr />
+                <div class="song-preview-card__album-cover-and-info">
+                    <div class="song-preview-card__album-container">
+                        <img src="/assets/images/album-cover.jpg" class="song-preview-card__album-image" alt="album cover" />
+                    </div>
+                    <div class="song-preview-card__album-info-container">
+                        <div class="song-preview-card__album-info-text">Jeffery</div>
+                        <div class="song-preview-card__album-info-dot-spacer">•</div>
+                        <div class="song-preview-card__album-info-text">2016</div>
+                        <div class="song-preview-card__album-info-dot-spacer">•</div>
+                        <div class="song-preview-card__album-info-text">10 songs, 42 min</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-  <script type="module" src="/src/global-scripts/main.js"></script>
-  <script type="module" src="/src/pages/home-page/scripts/home-page.js"></script>
+    <script type="module" src="/src/global-scripts/main.js"></script>
+    <script type="module" src="/src/pages/home-page/scripts/home-page.js"></script>
 </body>
 
 </html>
